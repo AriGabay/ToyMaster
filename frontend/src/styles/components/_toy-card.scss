@@ -1,0 +1,67 @@
+.el-card {
+
+
+  .toy-list {
+    background-color: darken($clr1, 12%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .time {
+      font-size: 13px;
+      color: #999;
+    }
+
+    .details {
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+    .text-toy-preview {
+      padding: 10px;
+    }
+
+    .bottom {
+      margin-top: 13px;
+      line-height: 12px;
+    }
+
+    .button {
+      padding: 0;
+      float: right;
+    }
+
+    .image {
+      width: 100%;
+      display: block;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+      display: table;
+      content: '';
+    }
+
+    .clearfix:after {
+      clear: both;
+    }
+
+    .card {
+      margin: 20px;
+      padding-top: (10px / 100px) * 100%;
+      min-height: 280px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+
+    .actions-button {
+      align-self: flex-end;
+    }
+
+  }
+
+
+}

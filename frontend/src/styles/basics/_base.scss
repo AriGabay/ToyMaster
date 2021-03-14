@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: $clr1;
+
+}
+
+html {
+  color: $clr4
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #FFF;
+  border: 1px solid #DCDFE6;
+  color: #606266;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  transition: .1s;
+  font-weight: 500;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 4px
+}
+
+.app-container {
+  width: 100%;
+  height: 100%
+}
+
+.el-button {
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #2c3e50;
+  flex-direction: column;
+  margin: 0 auto;
+  width: $break-wide
+}
+
+.details {
+  height: auto;
+}
+
+.inputs-edit>* {
+  margin: 10px;
+}
